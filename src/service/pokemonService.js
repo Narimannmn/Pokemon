@@ -1,6 +1,6 @@
 import api from "../api/api";
 
-export const pokemonState = {
+export const pokemonService = {
   getPokemon: async (data) =>{
 
   },
