@@ -1,0 +1,44 @@
+:root {
+    font-size: 15px;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    padding: 0 4rem 0 4rem;
+    height: 100vh;
+}
+
+@media (max-width: 1024px) {
+    :root {
+        font-size: 13px;
+    }
+    .container{
+        padding: 0 3rem;
+    }
+}
+
+@media (max-width: 940px) {
+    :root {
+        font-size: 13px;
+    }
+    .container{
+        padding: 0 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        font-size: 12px;
+    }
+    .container{
+        padding: 0 2rem;
+    }
+}
+@media (max-width: 425px) {
+    :root {
+        font-size: 10px;
+    }
+    .container{
+        padding: 0 0.5rem;
+    }
+}
