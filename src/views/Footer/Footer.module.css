@@ -1,8 +1,17 @@
 .footer{
-    padding: 2em;
+    width:100%;
     background-color: #263238;
-    text-align: center;
+    color: white;
+    padding: 3rem 6rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: flex-start;
+}
+.footerSection{
+    flex: 1 1 0;
+    align-content: flex-start;
+    padding: 1rem;
+}
+.footerSection ul{
+    list-style: none;
+    padding: 0;
 }
